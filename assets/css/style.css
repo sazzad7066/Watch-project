@@ -288,7 +288,6 @@ header{
         display: inline-block;
         margin: 20px 0px;
         margin-left: 30px;
-        /* box-shadow: 5px 10px 42px #fde3c4; */
         box-shadow:0 15px 40px rgb(249 167 68 / 50%);
  }
 /* Customer-section-end */
@@ -378,4 +377,102 @@ header{
     background: #F9A743;
 font-size: 20px;
 }
-
+/* revice-section start  */
+section.Review-section {
+    margin: 100px 0px;
+}
+.Review-section .review-inner h2{
+    color: #3c3c3c;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.Review-section .review-inner .watch-Review-section .review-content i{
+    color: #F9A743; 
+    display: flex;
+    justify-content: center;
+}
+.Review-section .review-inner .watch-Review-section .review-content p{
+    color: #777777;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0px;
+ 
+}
+.Review-section .review-inner .watch-Review-section .review-content img{
+    border-radius: 50%;
+    width: 70px;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+.Review-section .review-inner .watch-Review-section .review-content h4{
+    color: #3b4045;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.Review-section .review-inner .watch-Review-section .review-content h6{
+    color: #3b4045;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 2.5;
+}
+.review-content {
+    margin: 0px 25px;
+    padding: 80px 0px;
+}
+.Review-section .review-inner a{
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px 40px;
+    background: #F9A743;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 40px 0px;
+    margin-left: 470px;
+    box-shadow:0 15px 40px rgb(249 167 68 / 50%);
+   
+}
+/* revice-section end */
+footer{
+    background: #F4F4F4;
+    padding: 80px 0px;
+}
+footer .footer-content{
+    text-align: center;
+}
+footer .footer-content a{
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .footer-content a:hover{
+     text-decoration: underline;
+}
+footer .footer-content ul{
+    display: flex;
+    justify-content: center;
+}
+footer .footer-content ul li {
+    padding: 20px;
+}
+footer .footer-content ul li  a{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .footer-content a:hover{
+     text-decoration: underline;
+}
+footer .footer-content p{
+    color: #888888;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif
+}
